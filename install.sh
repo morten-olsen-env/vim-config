@@ -22,6 +22,7 @@ if [ ! -f ~/.vimrc ] && [ ! -d ~/.vim ]; then
     popd
     pushd ~/.vim/bundle/YouCompleteMe.vim
     git submodule update --init --recursive
+    sudo chown -R $(whoami):admin /usr/local/share/man
     brew install cmake
     ./install.py --tern-completer #--omnisharp-completer
     popd
