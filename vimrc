@@ -6,7 +6,7 @@ let g:jsx_ext_required = 0
 autocmd FileType octave setlocal keywordprg=xterm\ -fa\ 'DejaVu\ Sans\ Mono:style=Book'\ -fs\ 12\ -geometry\ 80x50\ -e\ info\ octave\ --vi-keys\ --index-search
 
 set background=dark
-colorscheme solarized
+colorscheme railscasts
 
 if !exists('g:ycm_semantic_triggers')
   let g:ycm_semantic_triggers = {}
@@ -41,7 +41,7 @@ set term=screen-256color
 let g:solarized_termcolors=256
 " set t_ut=
 let mapleader = ","
-colorscheme molokai
+" colorscheme molokai
 let g:airline#extensions#tabline#enabled = 1
 
 " Key bindings
