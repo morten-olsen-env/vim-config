@@ -13,10 +13,10 @@ if !exists('g:ycm_semantic_triggers')
 endif
 let g:ycm_semantic_triggers['typescript'] = ['.']
 
-if &term =~ '^screen'
+"if &term =~ '^screen'
     " tmux knows the extended mouse mode
     set ttymouse=xterm2
-endif
+"endif
 function! ToggleMouse()
     " check if mouse is enabled
     if &mouse == 'a'
